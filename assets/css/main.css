@@ -3383,6 +3383,13 @@ input, select, textarea {
 			width: 55em;
 		}
 
+		#banner .image {
+			border-radius: 100%;
+			margin: 0 0em 2em 0;
+			overflow: hidden;
+			-ms-flex: 1;
+		}
+
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
@@ -3455,7 +3462,9 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+			text-align: justify;
+		  text-justify: inter-word;
+			/* text-transform: uppercase; */
 		}
 
 		@media screen and (max-width: 1280px) {
