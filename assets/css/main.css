@@ -2452,8 +2452,10 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
+			position: center;
+			margin: 0 0 5em 0;
+			bottom: 2em;
+			width: 30%;
 		}
 
 			.image.main img {
@@ -2533,9 +2535,9 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: inter-word;
 			width: 100%;
-			margin-left: 0;
+			margin-left:  0;
 		}
 
 			ul.actions.special li:first-child {
@@ -3006,6 +3008,8 @@ input, select, textarea {
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
+			text-align: justify;
+		  text-justify: inter-word;
 		}
 
 			.features article:nth-child(2n) {
@@ -3388,6 +3392,8 @@ input, select, textarea {
 			margin: 0 0em 2em 0;
 			overflow: hidden;
 			-ms-flex: 1;
+			/* display:block;*/
+    	margin:auto;
 		}
 
 		#banner .logo {
@@ -3646,6 +3652,8 @@ input, select, textarea {
 			background-size: 100% 100%;
 			content: '';
 			display: block;
+			margin-left: auto;
+  		margin-right: auto;
 			height: 6.5em;
 			position: absolute;
 			width: 100%;
@@ -3799,7 +3807,7 @@ input, select, textarea {
 			.wrapper.spotlight .image {
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 11em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
