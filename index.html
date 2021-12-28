@@ -1,187 +1,769 @@
-<!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Michael Tang's  Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="image main">
-								<a><img src="images/pic09.jpg"></a>
-							</div>
-							<ul class="icons" style = 'text-align:center'>
-								<li><a href="mailto:mt374@duke.edu" class="icon solid fa-envelope large"></a></li>
-								<li><a href="http://www.linkedin.com/in/mtang0728" class="icon brands fa-linkedin"></a></li>
-								<li><a href="https://github.com/MTang0728" class="icon brands fa-github"></a></li>
-								<li><a href="https://michaeltang101.medium.com/" class="icon brands fa-medium"></a></li>
+<head>
+<title>Michael Tang - Data Scientist & ML Engineer</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<!-- webfonts -->
+	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<!-- webfonts -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="index.html"><span>W</span>elcome</a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+								<li><a class="scroll" data-hover="Education" href="#services" >Education</a></li>
+								<li><a class="scroll" data-hover="Experiences" href="#work">Experiences</a></li>
+								<li><a class="scroll" data-hover="Projects" href="#port">Projects</a></li>
 							</ul>
-							<h2 style = 'text-align:center'>WELCOME TO MY PAGE</h2>
-							<p>Hi! I am Michael, a Data Science Master candidate at Duke University. I was born in Chengdu, China, but my family moved to Toronto, Canada when I was 14. I had a Bachelor's degree and a Master's degree in Biomedical Engineering, and I had previously spent over a year working in the healthcare space. It was at that time I learned the power of big data and have decided to become a Data Scientist. You can read more about my journey to Data science in my <a href="https://michaeltang101.medium.com/my-journey-to-data-science-part-i-fe52f1587d2e?source=your_stories_page">Medium blog post</a>.</p>
-
-							<p>I am passionate about exploring the interaction between data and technology, utilizing data-driven techniques to uncover and understand patterns, and ultimately translating them into organic insights that could enhance decision-making processes! Furthermore, I am interested in experiences that are collaborative, fast-paced, and cultivating. Because of my prior background in healthcare, I am excited about scalable data solutions that are also socially meaningful.</p>
-
-							<p>On the personal end, I love bouldering and working out, I find them very effective at relieving my stress and improving my focus. I also enjoy cooking and I am a big foodie. Having lived in a diverse city like Toronto, I had the fortune to try some fo the most authentic exotic cuisines.</p>
-
-							<ul class="actions special">
-									<li><a href="https://drive.google.com/file/d/1r88kFJKEI66Ra6S7tChBDk93Y7a2mG-x/view?usp=sharing" class="button large">My Resume</a></li>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+				<div class="col-md-7 header-right">
+					<h1>Hi !</h1>
+					<h6>Data Scientist & Machine Learning Engineer</h>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>Name</b></li>
+								<li>Michael Tang</li>
 							</ul>
-							<!-- <h2 style = 'text-align:center'>My Experience</h2> -->
-						</div>
-					</section>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>D.O.B</b></li>
+								<li>07-28-1993</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>Cell </b></li>
+								<li>919-265-9739</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>Address </b></li>
+								<li>Durham, North Carolina, USA</li>
+							</ul>
+						</li>
+					</ul>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+					<ul class="social-icons two">
+						<li><a href="mailto:michaeltang101@gmail.com"> </a></li>
+						<li><a href="http://www.linkedin.com/in/mtang0728" class="fb"> </a></li>
+						<li><a href="https://github.com/MTang0728" class="in"> </a></li>
+						<li><a href="https://michaeltang101.medium.com/" class="dott"> </a></li>
+					</ul>
 
-						<!-- One-->
-							<section id="one" class="wrapper alt spotlight style1">
-								<div class="inner">
-										<h2 style = 'text-align:center'>My Experience</h2>
-									</div>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two" class="wrapper spotlight style2">
-								<div class="inner">
-									<a class="image"><img src="images/bosch.jpg"/></a>
-									<div class="content">
-										<h2 class="major">Machine Learning Engineer Intern</h2>
-										<h3>Bosch Center for Artificial Intelligence</h3>
-										<p>Sunnyvale, California, USA<br>Summer 2021</p>
-									</div>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three" class="wrapper alt spotlight style3">
-								<div class="inner">
-									<a class="image"><img src="images/duke_med.jpg"/></a>
-									<div class="content">
-										<h2 class="major">Research Project Fellow</h2>
-										<h3>Duke Cancer Institute</h3>
-										<p>Durham, North Carolina, USA<br>August 2020 - April 2021</p>
-									</div>
-								</div>
-							</section>
-
-							<!-- Four -->
-								<section id="four" class="wrapper spotlight style4">
-									<div class="inner">
-										<a class="image"><img src="images/uxsino.jpg"/></a>
-										<div class="content">
-											<h2 class="major">Machine Learning Research Intern</h2>
-											<h3>UXSINO Software Co.</h3>
-											<p>Toronto, Ontario, Canada<br>Summer 2021</p>
+				</div>
+				<div class="col-md-5 header-left">
+					<img src="images/img1.jpg" alt="">
+				</div>
+				<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+		</div>
+			</div>
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>My <span>Journey</span></h2>
+											<p>Hi! I am Michael, a Data Science Master candidate at Duke University. I was born in Chengdu, China, but my family moved to Toronto, Canada when I was 14. I had a Bachelor's degree and a Master's degree in Biomedical Engineering, and I had previously spent over a year working in the healthcare space. It was at that time I learned the power of big data and have decided to become a Data Scientist. You can read more about my journey to Data science in my <a href="https://michaeltang101.medium.com/my-journey-to-data-science-part-i-fe52f1587d2e?source=your_stories_page">Medium blog post</a>.</p>
+											<ul>
+												<li><a class='a-btn-a' href="https://drive.google.com/file/d/1r88kFJKEI66Ra6S7tChBDk93Y7a2mG-x/view?usp=sharing">My Resume</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contact Me</a></li>
+											</ul>
 										</div>
-									</div>
-								</section>
-
-							<!-- Five -->
-								<section id="five" class="wrapper alt spotlight style5">
-									<div class="inner">
-										<a class="image"><img src="images/innovere.jpg"/></a>
-										<div class="content">
-											<h2 class="major">Product Development Engineer</h2>
-											<h3>Innovere Medical Inc.</h3>
-											<p>Markham, Ontario, Canada<br>May 2018 – Oct 2019</p>
-
+					                </div>
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>My <span>Interests</span></h2>
+											<p>I am passionate about exploring the interaction between data and technology, utilizing data-driven techniques to uncover and understand patterns, and ultimately translating them into organic insights that could enhance decision-making processes! Furthermore, I am interested in experiences that are collaborative, fast-paced, and cultivating. Because of my prior background in healthcare, I am excited about scalable data solutions that are also socially meaningful.</p>
+											<ul>
+												<li><a class="a-btn-a" href="https://drive.google.com/file/d/1r88kFJKEI66Ra6S7tChBDk93Y7a2mG-x/view?usp=sharing">My Resume</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contact Me</a></li>
+											</ul>
 										</div>
-									</div>
-								</section>
-
-						<!-- Six -->
-							<section id="six" class="wrapper style1">
-								<div class="inner">
-									<h2 style = 'text-align:center'>My Projects</h2>
-									<section class="features">
-										<article>
-											<a href="https://github.com/MTang0728/Apple-Mobility-Trends-Webapp" class="image"><img src="images/mobility_trends.png" alt="" /></a>
-											<h3 class="major">Apple Covid-19 Dashboard</h3>
-											<p>Apple has been actively supporting the mitigation of the spread of COVID-19 global pandemic. It publishes a daily COVID-19 Mobility Trends Report through data it collects from Apple Maps. And I developed a dashboard web application to help improve the mobility data's interactivity and interpretability.</p>
-											<p>This web application is built using Plotly Dash framework. Both the frontend and backend operate entirely on a serverless data pipeline. My dashboard is currently deployed on AWS.</p>
-											<a href="http://apple-trends-dash-env.eba-fii2naf3.us-east-1.elasticbeanstalk.com/" class="special">Dashboard</a>
-											<a href="https://github.com/MTang0728/Apple-Mobility-Trends-Webapp" class="special">GitHub Repo</a>
-										</article>
-										<article>
-											<a href="https://github.com/MTang0728/Duke_Datathon_2020" class="image"><img src="images/datathon.jpg" alt="" /></a>
-											<h3 class="major">Duke Datathon 2020</h3>
-											<p>With the continuous outbreak of COVID-19 around the world, many health experts believe that the pandemic will not end in 2021, and the cease of the pandemic will likely involve a mix of efforts. I partnered with 3 otehr graduate-level students to provide a comprehensive analysis and concrete data-driven recommendations on the devastating long-term economic implications of COVID-19. </p>
-											<p>Our team leveraged population, economic and Covid-19 specific data to predict the impact on key economic indicators.</p>
-											<a href="https://dukeml.org/datathon/" class="special">Learn more</a>
-											<a href="https://github.com/MTang0728/Duke_Datathon_2020" class="special">GitHub Repo</a>
-										</article>
-										<article>
-											<a href="https://github.com/MTang0728/breast-mass-lesion-classification" class="image"><img src="images/breast_cancer.jpg" alt="" /></a>
-											<h3 class="major">Breast Cancer Mass Lesion Analysis</h3>
-											<p>Breast cancer is the most commonly diagnosed cancer in women in the United States, it is highly desired to detect and introduce intervention in the early stage to prevent further complications. Therefore, there has been a high demand in utilizing machine learning on mammography data to assist diagnosis. This analysis aims to determine the effects that a breast lesion’s physical attributes have on a lesion’s severity. </p>
-											<p>My final findings suggest that there are significant relationships between the odds of developing a malignant breast lesion and BI-RADS score, its mass shape and mass margin, as well as patient age, which has the strongest association with malignancy.</p>
-											<a href="https://github.com/MTang0728/breast-mass-lesion-classification" class="special">GitHub Repo</a>
-										</article>
-										<article>
-											<a href="https://github.com/MTang0728/AWS-BrandTrend-webapp" class="image"><img src="images/branding.jpg" alt="" /></a>
-											<h3 class="major">AWS Brand Trend Web App</h3>
-											<p>In this project, I built a simple interface that provides daily trend updates on brands through plots and tables. The brands shown in our webapp are updated on a daily basis and could range from fashion apparels to consumer electronics. The goal is to conduct a simple trend analysis by looking at if a sale would affect the brand's popularity on the web. These brands are being searched everyday on Google, whose popularity can be quantified and visualized on Google Trends. </p>
-											<p>The webapp is built using Flask application and ran on the principle of a Serverless Data Pipeline. </p>
-											<a href="http://brandtrend-env.eba-ubjwp9wg.us-east-1.elasticbeanstalk.com/" class="special">Web App</a>
-											<a href="https://github.com/MTang0728/AWS-BrandTrend-webapp" class="special">GitHub Repo</a>
-										</article>
-										<article>
-											<a href="https://github.com/MTang0728/Humana-Mays-Case-Competition" class="image"><img src="images/humana.png" alt="" /></a>
-											<h3 class="major">Humana-Mays Healthcare Analytics 2020 Case Competition</h3>
-											<p> The ever growing number of health-threatening substances and sites makes it harder for the medicare industry to evaluate health and its cost. Among all those challenges to health, transportation challenge stands out to be the most common one. </p>
-											<p>I joined the Humana-Mays Healthcare Analytics Case Competition with 2 other graduate-level students to identify MediCare members who are most likely to experience Transportation Challenges and propose viable solutions.</p>
-											<a href="https://mays.tamu.edu/humana-tamu-analytics/" class="special">Learn more</a>
-											<a href="https://github.com/MTang0728/Humana-Mays-Case-Competition" class="special">GitHub Repo</a>
-										</article>
-										<article>
-											<a href="https://github.com/MTang0728/Ames_Housing_Price_Competition" class="image"><img src="images/housing.jpg" alt="" /></a>
-											<h3 class="major">Kaggle Housing Price Competition</h3>
-											<p>The goal of this competition is to predict the housing prices in Ames using the predictors that are real-estate specific. In this analysis, I performed EDA, imputation, categorical feature encoding and feature engineering to prepare the data. </p>
-											<p>For regression model, I used both XGBoost and Random Forest regressor. The final result has an error of approximately 14,000 and ranked top 4% on Kaggle at the time of this notebook.</p>
-											<a href="https://www.kaggle.com/c/home-data-for-ml-course" class="special">Learn more</a>
-											<a href="https://github.com/MTang0728/Ames_Housing_Price_Competition" class="special">GitHub Repo</a>
-										</article>
-									</section>
-								</div>
-							</section>
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<ul class="icons" style = 'text-align:center'>
-								<li><a href="mailto:mt374@duke.edu" class="icon solid fa-envelope"></a></li>
-								<li><a href="http://www.linkedin.com/in/mtang0728" class="icon brands fa-linkedin"></a></li>
-								<li><a href="https://github.com/MTang0728" class="icon brands fa-github"></a></li>
-								<li><a href="https://michaeltang101.medium.com/" class="icon brands fa-medium"></a></li>
-							</ul>
+					                </div>
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>My <span>Hobbies</span></h2>
+											<p>I love bouldering and working out, I find them very effective at relieving my stress and improving my focus. I also enjoy cooking and I am a very big foodie. Having lived in a culturally diverse city like Toronto, I had the fortune to try some fo the most authentic and exotic cuisines.</p>
+											<ul>
+												<li><a class="a-btn-a" href="https://drive.google.com/file/d/1r88kFJKEI66Ra6S7tChBDk93Y7a2mG-x/view?usp=sharing">My Resume</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contact Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>WHERE I STUDIED</h4>
+						<h3>MY <span>EDUCATION</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-4 wthree_about_right_grid">
+					<div class="col-xs-3 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-ok"></i>
 						</div>
-					</section>
-
+					</div>
+					<div class="col-xs-9 wthree_about_right_grid_right">
+						<h4>Duke University</h4>
+						<h5>Data Science (M.S.)</h5>
+						<p>2020 - Present</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 wthree_about_right_grid">
+					<div class="col-xs-3 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-ok"></i>
+						</div>
+					</div>
+					<div class="col-xs-9 wthree_about_right_grid_right">
+						<h4>University of Toronto</h4>
+						<h5>Biomedical Engineering (M.Eng.)</h5>
+						<p>2017 - 2018</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 wthree_about_right_grid">
+					<div class="col-xs-3 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-ok"></i>
+						</div>
+					</div>
+					<div class="col-xs-9 wthree_about_right_grid_right">
+						<h4>McMaster University</h4>
+						<h5>Electrical & Biomedical Engineering (B.Eng.)</h5>
+						<p>2011 - 2017</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>WHERE I WORKED</h4>
+						<h3>MY <span>EXPERIENCES</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-3 year-info">
+							   <ul class="year">
+								   <li>08.2021 – Present</li>
+								   <li>08.2021 – Present</li>
+								   <li>05.2021 - 08.2021</li>
+								   <li>08.2020 - 04.2021</li>
+								   <li>05.2020 - 08.2020</li>
+								   <li>05.2018 - 04.2020</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+							<ul class="col-md-9 timeline">
+								<li>
+									<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Data Scientist</h4>
+										<h5 class="timeline-title">Red Venture - Healthline Media</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Build an article tagger with clustering techniques (K-means, hierarchical) to enable efficient inventory search.</li>
+										<li>Embed 70,000+ articles with techniques including Doc2Vec, Universal Sentence Encoder, and TF-IDF.</li>
+										<li>Create a classification model that automatically assigns a new article with multiple tags to help the business team place relevant advertisements and identify early healthcare-related trends.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Data Scientist</h4>
+										<h5 class="timeline-title">Duke Anesthesiology</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Leverage ensemble methods (Random Forest, XGBoost) on anesthesia case data to predict the likelihood of drug addiction and substance abuse.</li>
+										<li>Encode high-cardinality (200+) categorical features with Bio-ClinicalBERT and K-means clustering.</li>
+										<li>Launch a dashboard in Tableau to provide model interpretability and help clinicians identify at-risk providers.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Machine Learning Engineer Intern</h4>
+										<h5 class="timeline-title">Bosch - Center for Artificial Intelligence</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Developed a Root Cause (RC) detection model by quantifying the statistical relationship between root cause measurements and manufacturing failures with hypothesis tests including t-test, chi-square.</li>
+										<li>Designed and deployed a data simulator in Hadoop to augment the RC model’s applicability in complex processes.</li>
+										<li>Produced behavioural-driven tests to evaluate model performance; captured and resolved false-positive cases to increase production efficiency at customer sites.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Graduate Research Assistant </h4>
+										<h5 class="timeline-title">Duke Cancer Institute</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Collaborated with cross-functional teams to identify discrepancies among patient experience patterns and optimized questionnaire delivery timing & frequency for tele-visits; increased questionnaire click-through rate by 10%.</li>
+										<li>Visualized historical symptom trends and clustered self-reported symptoms to facilitate cancer patient triage and diagnosis.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Machine Learning Research Intern</h4>
+										<h5 class="timeline-title">UXSINO Software Co.</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Queried network operation data with PostgreSQL; cleaned and analyzed data to identify failing hardware components in a network topology.</li>
+										<li>Created a Graph Convolutional Network-based Anomaly Detector to predict node status; outperformed previous Gaussian-based model by 12% in F1 score.</li>
+									</ul>
+								</li>
+								<li>
+									<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+									<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Product Development Engineer</h4>
+										<h5 class="timeline-title">Innovere Medical Inc.</h5>
+									</div>
+									<ul class="timeline-body">
+										<li>Generated measurable and practical design inputs by collaborating with stakeholders to identify and attain user, regulatory, and marketing-related requirements.</li>
+										<li>Directed software development lifecycle activities such as software validation through an agile process; accelerated the product delivery by 2 weeks.</li>
+									</ul>
+								</li>
+							</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+		<!-- portfolio -->
+	<div class="portfolio" id="port">
+					<div class="service-head text-center">
+							<h4>WHAT I DID</h4>
+							<h3>MY <span>PROJECTS</span></h3>
+							<span class="border"></span>
+						</div>
+				<div class="portfolio-grids">
+					<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+										$(document).ready(function () {
+											$('#horizontalTab').easyResponsiveTabs({
+												type: 'default', //Types: default, vertical, accordion           
+												width: 'auto', //auto or any width like 600px
+												fit: true   // 100% fit in a container
+											});
+										});
+										
+					</script>
+					<div class="sap_tabs">
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							<ul class="resp-tabs-list">
+								<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li> 
+								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Inference</span></li> 
+								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Machine/Deep Learning</span></li> 				
+								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Cloud</span></li> 
+								<li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Dashboard</span></li> 
+							</ul>				  	 
+							<div class="resp-tabs-container">
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/language.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/ads.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/mobility_trends.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd ">
+									
+											<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/datathon.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+										
+											<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+										
+											<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/breast_cancer.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+										
+											<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/humana.png" alt="">
+											
+											</a>
+									
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+										
+											<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/housing.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="col-md-3 team-gd ">
+										<div class="thumb">
+											<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/ads.png" alt="">
+											
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3 team-gd  ">
+										<div class="thumb">
+											<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/datathon.png" alt="">
+											
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/breast_cancer.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/language.png" alt="">
+											
+											</a>
+									
+									</div>
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/humana.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd">
+										
+											<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/housing.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/mobility_trends.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="col-md-3 team-gd">
+										
+											<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/branding.jpg" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+									<div class="col-md-3 team-gd ">
+										
+											<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/mobility_trends.png" alt="">
+											
+											</a>
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<!-- //portfolio -->
+
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	
+			 <ul class="social-icons two">
+				<li><a href="mailto:michaeltang101@gmail.com"> </a></li>
+				<li><a href="http://www.linkedin.com/in/mtang0728" class="fb"> </a></li>
+				<li><a href="https://github.com/MTang0728" class="in"> </a></li>
+				<li><a href="https://michaeltang101.medium.com/" class="dott"> </a></li>
+			</ul>
+		
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Self-supervised Learning for Language Modeling</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Self-supervised-Learning-for-Language-Modeling">GitHub Repo</a></li>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Self-supervised-Learning-for-Language-Modeling/blob/main/docs/poster.pdf">Poster</a></li>
+						</ul>
+                        <img src="images/language.png" class="img-responsive img-centered" alt="">
+                        <p>Self-supervised learning is rapidly gaining popularity. It enables the model to learn from a large number of unlabeled datasets, and transfer the knowledge learned to perform specific downstream tasks. Self-supervised learning generally has two main stages. The first Pre-training stage trains the model on a large general-purpose unlabeled dataset with various pretext tasks. The second stage focuses on fine-tuning. In this project, I compared the impact of different pretext tasks used in BERT, ALBERT and BART on Sentiment Analysis. Ablation studies were also implemented to compare the marginal effect of each pretext task and the interaction between pretext tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Candy Bar Ads Campaign Sales Lift Analysis</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Candy-Bar-Ads-Campaign-Sales-Lift-Analysis">GitHub Repo</a></li>
+						</ul>
+                        <img src="images/ads.png" class="img-responsive img-centered" alt="">
+                        <p>Ad Tech companies often seek to measure the effectiveness of online advertising. This projects contains an analysis I have done for a Ad Tech company to determine if their recent online campaign for a candy bar had lead to sales lift. More specifically, I investigated the differences in sales beteen households that saw the ad ('treatment') and those that did not ('control'). </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Apple COVID-19 Mobility Trends Dashboard</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Apple-Mobility-Trends-Webapp">GitHub Repo</a></li>
+							<li><a class="a-btn-a" href="http://apple-trends-dash-env.eba-fii2naf3.us-east-1.elasticbeanstalk.com/">Dashboard</a></li>
+						</ul>
+                        <img src="images/mobility_trends.png" class="img-responsive img-centered" alt="">
+                        <p>Apple has been actively supporting the mitigation of the spread of COVID-19 global pandemic. It publishes a daily COVID-19 Mobility Trends Report through data it collects from Apple Maps. And I developed a dashboard web application to help improve the mobility data's interactivity and interpretability.<br><br>This web application is built using Plotly Dash framework. Both the frontend and backend operate entirely on a serverless data pipeline. My dashboard is currently deployed on AWS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Duke Datathon 2020</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Duke_Datathon_2020">GitHub Repo</a></li>
+							<li><a class="a-btn-a" href="https://dukeml.org/datathon/">Learn More</a></li>
+						</ul>
+                        <img src="images/datathon.png" class="img-responsive img-centered" alt="">
+                        <p>With the continuous outbreak of COVID-19 around the world, many health experts believe that the pandemic will not end in 2021, and the cease of the pandemic will likely involve a mix of efforts. I partnered with 3 otehr graduate-level students to provide a comprehensive analysis and concrete data-driven recommendations on the devastating long-term economic implications of COVID-19. <br><br>Our team leveraged population, economic and Covid-19 specific data to predict the impact on key economic indicators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>AWS Brand Trend Web App</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/AWS-BrandTrend-webapp">GitHub Repo</a></li>
+							<li><a class="a-btn-a" href="http://brandtrend-env.eba-ubjwp9wg.us-east-1.elasticbeanstalk.com/">Web App</a></li>
+						</ul>
+                        <img src="images/branding.jpg" class="img-responsive img-centered" alt="">
+                        <p>In this project, I built a simple interface that provides daily trend updates on brands through plots and tables. The brands shown in our webapp are updated on a daily basis and could range from fashion apparels to consumer electronics. The goal is to conduct a simple trend analysis by looking at if a sale would affect the brand's popularity on the web. These brands are being searched everyday on Google, whose popularity can be quantified and visualized on Google Trends. <br><br>The webapp is built using Flask application and ran on the principle of a Serverless Data Pipeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Breast Cancer Mass Lesion Analysis</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/breast-mass-lesion-classification">GitHub Repo</a></li>
+						</ul>
+                        <img src="images/breast_cancer.jpg" class="img-responsive img-centered" alt="">
+                        <p>Breast cancer is the most commonly diagnosed cancer in women in the United States, it is highly desired to detect and introduce intervention in the early stage to prevent further complications. Therefore, there has been a high demand in utilizing machine learning on mammography data to assist diagnosis. This analysis aims to determine the effects that a breast lesion’s physical attributes have on a lesion’s severity.<br><br>My final findings suggest that there are significant relationships between the odds of developing a malignant breast lesion and BI-RADS score, its mass shape and mass margin, as well as patient age, which has the strongest association with malignancy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Humana-Mays Healthcare Analytics 2020 Case Competition</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Humana-Mays-Case-Competition">GitHub Repo</a></li>
+							<li><a class="a-btn-a" href="https://mays.tamu.edu/humana-tamu-analytics">Learn More</a></li>
+						</ul>
+                        <img src="images/humana.png" class="img-responsive img-centered" alt="">
+                        <p>The ever growing number of health-threatening substances and sites makes it harder for the medicare industry to evaluate health and its cost. Among all those challenges to health, transportation challenge stands out to be the most common one.<br><br>I joined the Humana-Mays Healthcare Analytics Case Competition with 2 other graduate-level students to identify MediCare members who are most likely to experience Transportation Challenges and propose viable solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Kaggle Housing Price Competition</h3>
+						<ul>
+							<li><a class='a-btn-a' href="https://github.com/MTang0728/Ames_Housing_Price_Competition">GitHub Repo</a></li>
+							<li><a class="a-btn-a" href="https://www.kaggle.com/c/home-data-for-ml-course">Learn More</a></li>
+						</ul>
+                        <img src="images/housing.jpg" class="img-responsive img-centered" alt="">
+                        <p>The goal of this competition is to predict the housing prices in Ames using the predictors that are real-estate specific. In this analysis, I performed EDA, imputation, categorical feature encoding and feature engineering to prepare the data.<br><br>For regression model, I used both XGBoost and Random Forest regressor. The final result has an error of approximately 14,000 and ranked top 4% on Kaggle at the time of this notebook.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
 
 	</body>
 </html>
+
