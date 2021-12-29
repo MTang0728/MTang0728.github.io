@@ -215,7 +215,7 @@ ul.social-icons{
 .social-icons li {
     display: inline-block;
     /* margin-right: 1%; */
-	padding: 3% 5% 0 5%;
+	padding: 3% 3% 0 3%;
 }
 .social-icons li a{  
     background: url(../images/gmail.svg) no-repeat 50%;
